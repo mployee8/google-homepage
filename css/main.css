@@ -1,0 +1,90 @@
+
+
+/* Nav bar elements */
+
+.nav-container ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.nav-container ul li{display: inline;
+font-family: arial, sans-serif;
+font-size: 13px;
+padding: 15px;
+}
+
+
+
+.nav-container{float: right;
+display: inline;
+width:375px;
+}
+
+
+.nav-container ul li a{text-decoration: none;
+color: #222;
+}
+
+
+.nav-container ul li a:hover{text-decoration: underline;
+color: #222;
+}
+
+
+.img-circle{
+border-radius: 50%;
+width: 30px;
+}
+
+
+
+
+/*  Main Area */
+
+
+.logo{
+margin: auto;
+clear: both;
+width: 25%;
+position: absolute;
+top: 250px;
+right: 450px;}
+
+
+.form{
+clear: both;}
+
+
+
+.search-box{
+width: 50%;
+height: 30px;
+position: absolute;
+top: 375px;
+right: 335px;
+margin: auto;
+
+}
+
+
+/* Sprite */
+
+
+ #apps{
+	background-image: url('../images/images.png');
+	background-size: 112px 1828px;
+	background-position: -69px -854px;
+	height: 30px;
+	width: 30px;
+}
+
+
+#bell{
+	background: url('../images/images.png') no-repeat 0 -1445px;
+	width: 23px;
+	height: 26px;
+}
+
+
