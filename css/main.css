@@ -1,42 +1,23 @@
 
+/* Default */
 
+body{
+font-size: small;
+font-family: Helvetica, Arial;}
 /* Nav bar elements */
 
-.nav-container ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-
-.nav-container ul li{display: inline;
-font-family: arial, sans-serif;
-font-size: 13px;
-padding: 15px;
-}
-
-
-
-.nav-container{float: right;
-display: inline;
-}
-
-
-.nav-container ul li a{text-decoration: none;
-color: #222;
-}
-
-
-.nav-container ul li a:hover{text-decoration: underline;
-color: #222;
+ul{list-style-type: none;
+margin: 0;
+padding: 0;
 }
 
 
 .img-circle{
-border-radius: 50%;
 width: 30px;
-}
-
+height: 30px;
+border-radius: 15px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;}
 
 
 
@@ -75,11 +56,9 @@ margin: auto;
 
 
  #apps{
-	background-image: url('../images/images.png');
-	background-size: 112px 1828px;
-	background-position: -69px -854px;
-	height: 30px;
-	width: 30px;
+	background: url('../images/images.png') no-repeat -73px -407px;
+	height: 22px;
+	width: 22px;
 }
 
 
