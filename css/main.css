@@ -107,6 +107,16 @@ height: 30px;}
 	width: 20px;
 }
 
+#mic{
+object-fit: none;
+object-position: 0 -720px;
+height: 20px;
+width: 20px;
+position: relative;
+top: 27px;
+left: 590px;
+}
+
 
 .sprite-position{
 position: relative;
