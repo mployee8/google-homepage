@@ -11,23 +11,24 @@ font-family: Helvetica, Arial;}
 
 ul{list-style-type: none;
 margin: 0;
-padding: 0;
 }
 
 
 li{
 display: inline;
-padding-right: 15px;
+padding-left: 10px;
 padding-bottom: 20px;
 }
 
 .img-circle{
-width: 20px;
-height: 20px;
+width: 30x;
+height: 30px;
 border-radius: 50%;
 -webkit-border-radius: 50%;
 -moz-border-radius: 50%;
-background: url(../images/sol.jpg) no-repeat; 
+no-repeat; 
+position: relative;
+top: 10px;
 }
 
 
@@ -70,6 +71,22 @@ margin: auto;
 
 }
 
+
+.center-button{
+	margin: auto;
+	padding-right: 20px;
+}
+
+
+#center-interior{
+text-align: center;
+padding-top: 20px;
+}
+
+
+.buttons{
+width: 25%;
+height: 30px;}
 
 /* Sprite */
 
